@@ -10,6 +10,7 @@
 *.userosscache
 *.sln.docstates
 *.env
+*.env.example
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -427,3 +428,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+___pycache__/
+*.pyc
+.streamlit/secrets.toml
